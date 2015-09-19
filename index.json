@@ -3,12 +3,18 @@
   "env": {
     "node": true
   },
+  "plugins": [
+    "require-path-exists"
+  ],
   "rules": {
     "callback-return": 2,
     "handle-callback-err": 2,
     "no-new-require": 2,
     "no-path-concat": 2,
     "no-process-exit": 1,
-    "no-sync": 1
+    "no-sync": 1,
+    "require-path-exists/exists": 2,
+    "require-path-exists/not_empty": 2,
+    "require-path-exists/too_many_arguments": 2
   }
 }
