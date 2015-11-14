@@ -1,10 +1,9 @@
 {
   "name": "@dominicbarnes/eslint-config-node",
-  "description": "ESLint configuration for use in node/iojs projects",
+  "description": "ESLint configuration for use in node projects",
   "version": "0.1.2",
   "main": "index.json",
   "peerDependencies": {
-    "@dominicbarnes/eslint-config": "*",
     "eslint-plugin-require-path-exists": "^1.0.15"
   }
 }

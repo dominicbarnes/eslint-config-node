@@ -1,7 +1,19 @@
 {
-  "extends": "@dominicbarnes",
   "env": {
     "node": true
+  },
+  "ecmaFeatures": {
+    "arrowFunctions": true,
+    "blockBindings": true,
+    "classes": true,
+    "forOf": true,
+    "generators": true,
+    "modules": true,
+    "objectLiteralComputedProperties": true,
+    "objectLiteralDuplicateProperties": true,
+    "objectLiteralShorthandMethods": true,
+    "objectLiteralShorthandProperties": true,
+    "templateStrings": true
   },
   "plugins": [
     "require-path-exists"
