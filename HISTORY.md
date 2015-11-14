@@ -1,4 +1,9 @@
 
+0.2.0 / 2015-11-13
+==================
+
+  * removing extend, specifying features for node 4.x
+
 0.1.2 / 2015-10-11
 ==================
 
