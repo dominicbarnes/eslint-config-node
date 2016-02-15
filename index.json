@@ -2,18 +2,8 @@
   "env": {
     "node": true
   },
-  "ecmaFeatures": {
-    "arrowFunctions": true,
-    "blockBindings": true,
-    "classes": true,
-    "forOf": true,
-    "generators": true,
-    "modules": true,
-    "objectLiteralComputedProperties": true,
-    "objectLiteralDuplicateProperties": true,
-    "objectLiteralShorthandMethods": true,
-    "objectLiteralShorthandProperties": true,
-    "templateStrings": true
+  "parserOptions": {
+    "ecmaVersion": 6
   },
   "plugins": [
     "require-path-exists"
