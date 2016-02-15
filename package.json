@@ -1,7 +1,7 @@
 {
   "name": "@dominicbarnes/eslint-config-node",
   "description": "ESLint configuration for use in node projects",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "main": "index.json",
   "peerDependencies": {
     "eslint": "^2.0.0",
